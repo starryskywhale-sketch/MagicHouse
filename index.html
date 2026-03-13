@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>深空魔法屋｜DEEP SPACE MAGIC HOUSE</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+
+  <div class="site">
+    <nav class="top-nav" aria-label="主選單">
+      <div class="top-nav__inner">
+        <a href="#brand" class="brand-mini">
+          <span class="brand-mini__dot"></span>
+          <span>DEEP SPACE MAGIC HOUSE</span>
+        </a>
+        <div class="top-nav__links">
+          <a href="#brand">品牌</a>
+          <a href="#products">商品</a>
+          <a href="#purchase">購買方式</a>
+          <a href="about.html">關於店長</a>
+        </div>
+      </div>
+    </nav>
+
+    <header class="secret-gate" id="top">
+      <div class="gate-card">
+        <div class="gate-card__overline">Secret Shop Entrance</div>
+        <h1 class="gate-card__title fade-in" style="animation-delay:.2s">
+ 			<span class="gate-card__title-line">歡迎來到</span>
+			<span class="gate-card__title-line gate-card__title-line--strong">深空魔法屋</span>
+		</h1>
+        <p class="gate-card__intro fade-in" style="animation-delay:.45s" id="gateIntro">
+          萬物皆有裂隙，那是光照進來的地方。<br>
+		<font size="0.5">——Leonard Cohen《Anthem》。</font>
+        </p>
+
+        <section class="recommend fade-in" style="animation-delay:.75s" aria-live="polite">
+          <div class="recommend__media">
+            <img id="recommendImage" src="images/recommend-gentle-water.jpg" alt="今日推薦意象圖" />
+          </div>
+          <div class="recommend__content">
+            <div>
+              <div class="recommend__eyebrow" id="recommendEyebrow"></div>
+				<div class="recommend__details" id="recommendDetails">
+				  <div class="recommend__category" id="recommendCategory">今天的你，也許只需要先好好呼吸一下。</div>
+				  <div class="recommend__label" id="recommendLabel">店長推薦</div>
+				  <h2 class="recommend__name" id="recommendName">今天不必急著前進</h2>
+				  <p class="recommend__desc" id="recommendDescription">
+					有些日子不是用來衝刺的，而是用來把自己慢慢接回來。你已經很努力了，今天可以先不用那麼用力。
+				  </p>
+				  <div class="recommend__ritual-wrap">
+					<div class="recommend__ritual-title">
+					  <span class="recommend__ritual-or">或者</span>
+					  <span class="recommend__ritual-text">你也可以為自己做個生活小儀式</span>
+					</div>
+					<p class="recommend__ritual" id="recommendRitual">
+					  替自己倒一杯水，雙手捧著杯子，停三個呼吸，提醒自己：今天只要慢慢來就好。
+					</p>
+				  </div>
+				</div>
+            </div>
+
+            <div class="recommend__actions">
+              <button class="button--ghost" id="rerollButton" type="button">再抽一次推薦</button>
+              <a class="button" href="#brand">進入魔法屋</a>
+              <button class="button--ghost" id="detailButton" type="button">查看詳情</button>
+              <a class="button--ghost" id="buyButton" href="#products">前往購買</a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </header>
+
+    <main>
+      <section class="section" id="brand">
+        <div class="hero-brand">
+          <div class="hero-brand__visual">
+            <img class="hero-bg" src="images/hero-stars.jpg" alt="深空魔法屋星空背景" />
+            <div class="hero-brand__logo">
+              <img src="images/logo.png" alt="深空魔法屋 Logo" />
+				<div class="hero-brand__tagline">
+				  為喜悅而作<br />
+				  <span class="hero-brand__tagline-line">將我對生活與魔法的感動</span>
+				  <span class="hero-brand__tagline-line">分享給你</span>
+				  <small>Made With Love.</small>
+				</div>
+            </div>
+          </div>
+
+          <div class="hero-brand__copy">
+            <div class="eyebrow">Brand Story</div>
+            <h2 class="title">讓生活充滿儀式感，將魔法與日常編織成自己的生活小宇宙。</h2>
+            <p class="body-copy">
+              這裡是一間以乾燥植物儀式材料、蠟燭與魔法小物為主的手作小店。
+              這裡的每一樣東西，都是一段陪你回到自己內心未知之處，找到力量、找回自己的小小魔法。
+            </p>
+            <div class="hero-brand__actions">
+              <a class="button" href="#products">查看主打商品</a>
+              <a class="button--ghost" href="about.html">認識店長</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="products">
+        <div class="eyebrow">Featured Objects</div>
+        <h2 class="title">店長默默將幾樣東西放下</h2>
+        <p class="body-copy">
+			請隨意看看，看看不用錢。（笑）<br/>
+			但如果有圖片、有文字吸引了你的注意，覺得有幫助，那也很好。
+        </p>
+
+        <div class="products-grid" id="productGrid"></div>
+      </section>
+
+      <section class="section" id="purchase">
+        <div class="eyebrow">How To Purchase</div>
+        <h2 class="title">請按照你的節奏慢慢挑選、慢慢感覺。</h2>
+        <div class="purchase-box">
+          <p>
+            本站主要作為展示與商品介紹，正式購買請點擊商品卡中的「前往購買」，將會外連至賣貨便頁面。<br/>
+            若你正在尋找客製、課程或其他合作，也可以先透過社群訊息與我聯繫。
+          </p>
+          <a class="button" href="https://myship.7-11.com.tw/general/detail/GM2401190051541" target="_blank" rel="noopener">前往賣貨便</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>© 深空魔法屋 DEEP SPACE MAGIC HOUSE</div>
+      <div>
+        <a href="about.html">店長介紹</a>
+        ・
+        <a href="https://myship.7-11.com.tw/general/detail/GM2401190051541" target="_blank" rel="noopener">購買頁面</a>
+      </div>
+    </footer>
+  </div>
+
+  <div class="modal" id="productModal" aria-hidden="true">
+    <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal__body">
+        <div class="modal__media">
+          <img id="modalImage" src="" alt="商品意象圖" />
+        </div>
+        <div class="modal__content">
+          <button class="modal__close" id="closeModal" aria-label="關閉">✕</button>
+          <div class="eyebrow" id="modalCategory">Product Detail</div>
+          <h3 id="modalTitle">商品名稱</h3>
+          <p id="modalDescription">商品介紹</p>
+          <div class="modal__ritual">
+            <div class="recommend__ritual-title">今天的小小儀式</div>
+            <p id="modalRitual">儀式文字</p>
+          </div>
+          <div class="recommend__actions modal__actions-gap">
+            <a class="button" id="modalBuy" href="#" target="_blank" rel="noopener">前往購買</a>
+            <button class="button--ghost" id="modalBackToProducts" type="button">回到商品區</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
